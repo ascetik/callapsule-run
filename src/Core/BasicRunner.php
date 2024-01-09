@@ -21,7 +21,7 @@ use Ascetik\Callapsule\Run\Types\RunningStrategy;
  *
  * @version 1.0.0
  */
-class MainCallStrategy implements RunningStrategy
+class BasicRunner implements RunningStrategy
 {
     public function call(callable $call, array $arguments = []): mixed
     {
