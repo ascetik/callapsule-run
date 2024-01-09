@@ -1,10 +1,10 @@
 <?php
 
 /**
- * This is part of the ascetik/mono package
+ * This is part of the ascetik/callapsule-run package
  *
- * @package    Mono\Core
- * @category   Data tranfer object
+ * @package    Callapsule\Run
+ * @category   Main Running strategy
  * @license    https://opensource.org/license/mit/  MIT License
  * @copyright  Copyright (c) 2023, Vidda
  * @author     Vidda <vidda@ascetik.fr>
