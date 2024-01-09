@@ -2,13 +2,24 @@
 
 Abstracted way to execute any callable.
 
-I had to add this kind of feature on two packages still in development.
-So, i decided to create this package that i can reuse.
+## Release notes
 
-The interface has just one method to run a given callable with given parameters.
+> Version 0.1.0 : (draft)
+
+I had to develop this kind of feature on two or three packages still in development.
+So, i decided to create this one for reuse.
+
+The interface has just one method :
 
 **RunningStrategy**::call(_callable_, _?array_): _mixed_
 
-This package provides the simplest implementation of this abstration : **BasicRunner**.
+## Usage
 
-That's all for now...
+The simplest implementation of this abstration is included : **BasicRunner**.
+
+```php
+
+$runner = new BasicRunner();
+echo $runner->call(fn(string $name) => 'hello '.$name, [ 'John' ]); // "hello John"
+
+```
